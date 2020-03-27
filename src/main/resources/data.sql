@@ -1,0 +1,2 @@
+insert into User (username, password, email) values ('john', '{noop}johnpassword', 'johndoe@randommail.com');
+insert into User (username, password, email) values ('jane', '{noop}janepassword', 'janedoe@randommail.com');

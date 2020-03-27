@@ -1,0 +1,17 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Error Page</title>
+        <link rel="stylesheet" th:href="@{/style.css}"/>
+    </head>
+
+    <body>
+        <div class="errorPage">
+            <span class="error"><h2>Error occured</h2></span>
+            <br/>
+            <p>There seems to be a problem with the page you requested
+                (<span th:text="${path}"></span>).
+            </p>
+            <p th:text="${'Details: ' + message}"></p>
+        </div>
+    </body>
+</html>
